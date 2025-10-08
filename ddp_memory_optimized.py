@@ -91,7 +91,7 @@ def cleanup_distributed():
 class ExperimentConfig:
     """Memory-optimized configuration for 4x L4 GPUs"""
     # Model configuration - OPTIMIZED FOR MEMORY
-    model_name: str = "meta-llama/Llama-3.2-8B"  # or your 8B model
+    model_name: str = "Qwen/Qwen3-4B-Instruct-2507"  # or your 8B model
     dataset_name: str = "OpenCoder-LLM/opc-sft-stage2"
     dataset_config: str = "educational_instruct"
     
